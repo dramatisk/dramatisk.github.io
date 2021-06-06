@@ -48,12 +48,11 @@ p {
 @media (max-width: 1000px) {
 
 	h1 {
-		font-size: 5.8em;
+		font-size: 3em;
 	}
 
 	p {
-		font-size:3.5em;
-		font-style: italic;
+		font-size:2em;
 	}
 	body {
 		background-color: #e3b4a6;
