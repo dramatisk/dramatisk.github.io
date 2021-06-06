@@ -40,7 +40,9 @@ p {
 }
 
 @media only screen 
-  and (max-width: 812px) { 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
 	h1 {
 		font-size: 5em;
 	}
