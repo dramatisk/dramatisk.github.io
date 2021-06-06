@@ -39,10 +39,8 @@ p {
 	margin-top: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-	body {
-		background-color: #e3b4a6;
-	}
+@media only screen 
+  and (max-width: 812px) { 
 	h1 {
 		font-size: 5em;
 	}
@@ -50,5 +48,8 @@ p {
 	p {
 		font-size:3em;
 		font-style: italic;
+	}
+	body {
+		background-color: #e3b4a6;
 	}
 }
